@@ -30,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Toast.makeText(MainActivity.this,"Paused",Toast.LENGTH_SHORT).show();
             mediaPlayer.pause();
-            mediaPlayer.seekTo(5);
+
             }
         });
     }
