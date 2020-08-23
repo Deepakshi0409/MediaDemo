@@ -33,5 +33,13 @@ public class MainActivity extends AppCompatActivity {
 
             }
         });
+        Button btn3 = findViewById(R.id.btn3);
+        btn3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Toast.makeText(MainActivity.this,"Skipped",Toast.LENGTH_SHORT).show();
+                mediaPlayer.seekTo(5);
+            }
+        });
     }
 }

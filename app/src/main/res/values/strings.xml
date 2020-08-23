@@ -2,6 +2,6 @@
     <string name="app_name">Media Player</string>
     <string name="pause">PAUSE</string>
     <string name="play">PLAY</string>
-
+    <string name="skip">SKIP</string>
 
 </resources>
