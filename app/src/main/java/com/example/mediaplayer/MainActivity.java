@@ -38,7 +38,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Toast.makeText(MainActivity.this,"Skipped",Toast.LENGTH_SHORT).show();
-                mediaPlayer.seekTo(8);
+                mediaPlayer.seekTo(9);
             }
         });
     }
