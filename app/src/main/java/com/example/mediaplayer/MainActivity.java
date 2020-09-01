@@ -22,6 +22,12 @@ public class MainActivity extends AppCompatActivity {
 
                 Toast.makeText(MainActivity.this,"Playing",Toast.LENGTH_SHORT).show();
                 mediaPlayer.start();
+                mediaPlayer.setOnCompletionListener(new MediaPlayer.OnCompletionListener() {
+                    @Override
+                    public void onCompletion(MediaPlayer mp) {
+                        Toast.makeText(MainActivity.this, "I'm done ",Toast.LENGTH_SHORT).show();
+                    }
+                });
             }
         });
         Button btn2 = findViewById(R.id.btn2);
